@@ -1,12 +1,12 @@
 # ANIMATOR
 ## AIM:
-To develop a animator using unity with C# prgram and move the animator.
+To develop an animator using unity with C# program and move the animator.
 
 ## ALGORITHM:
 ### STEP 1:
 Download 2 crouch idle from maximo 3d. Drag it and drop it in unity asset.
 ### STEP 2:
-Select one crouch and in the inspector choose rig-> Animation type (humaniod) and then click update.
+Select one crouch and in the inspector choose rig-> Animation type (humanoid) and then click update.
 ### STEP 3:
 Perform the step 2 for another crouch
 ### STEP 4:
@@ -20,11 +20,11 @@ In the Player inspector we have Animator. Right click in Assets-> create -> Anim
 ### STEP 8:
 Drag the IdleToCrouch to the Controller option under the Animator in the inspector. Click that IdleToCrouch , a window opens and select parameter tab , create 2 parameter, InputX and InputY
 ### STEP 9:
-Select the another crouch and attach with Entry button and name it as movement. Right click it and choose create blend tree.
+Select another crouch and attach with Entry button and name it as movement. Right click it and choose create blend tree.
 ### STEP 10:
 Click the movement button, blend tree opens. Choose InputY in parameter and under the motion click ‘+’ sign and choose add the motion field twice.
 ### STEP 11:
-Drag the second crouch and put it motion field, then drag the first crouch and put it in the another motion field.
+Drag the second crouch and put it motion field, then drag the first crouch and put it in another motion field.
 ### STEP 12:
 Uncheck the automata threshold and change the values -1 and 0 in first column( priority for the crouch). Create a C# file and name it as IdleToCrouch, drag it to the player
 ### STEP 13:
